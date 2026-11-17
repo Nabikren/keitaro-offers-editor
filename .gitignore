@@ -1,0 +1,27 @@
+# secrets
+.env
+*.env.local
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+# local data
+backend/data/
+*.sqlite3
+*.db
+*.log
+# frontend
+frontend/node_modules/
+frontend/dist/
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
